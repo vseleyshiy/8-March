@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Fredoka', sans-serif;
+}
+.wrapper {
+    min-height: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul>li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    padding-top: 100px;
+}
+.hero__content {
+    display: flex;
+}
+.hero__info {
+    color: rgb(141, 46, 62);
+}
+.hero__headline {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    padding-left: 140px;
+}
+.hero__title {
+    font-weight: 700;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+.hero__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(105, 0, 0);
+    padding-left: 250px;
+}
+.hero__decor {
+}
+.hero__img-wrap {
+    height: 100px;
+    width: 100px;
+}
+.hero__butterfly {
+    
+}
+.hero__img-wrap-gif {
+    padding-left: 500px; 
+}
+.hero__butterfly-gif {
+}
+
